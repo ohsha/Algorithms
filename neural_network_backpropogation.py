@@ -3,7 +3,6 @@ import numpy as np
 class NeuralNetwork:
 
     def __init__(self, layers, alpha=0.01, W=None):
-
         self.layers = layers
         self.alpha = alpha
         self.n_instances = None
@@ -90,6 +89,7 @@ class NeuralNetwork:
 
 if __name__ == '__main__':
 
+    # XOR
     X = np.array([[0,0], [0,1], [1,0], [1,1]])
     y = np.array([[1], [0], [0], [1]])
 
